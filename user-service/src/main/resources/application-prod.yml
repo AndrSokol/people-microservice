@@ -1,0 +1,4 @@
+external:
+  service:
+    address:
+      url: http://localhost:8096
