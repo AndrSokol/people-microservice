@@ -1,0 +1,2 @@
+docker run --name some-postgres -e POSTGRES_USER=andr -e POSTGRES_PASSWORD=123456 -d -p 5432:5432 postgres:alpine
+docker run --name some-postgres1 -e POSTGRES_USER=andr -e POSTGRES_PASSWORD=123456 -e POSTGRES_DB=new -d -p 5432:5432
